@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante - Pedidos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card__comida" id="napolitana">
+            <figure class="card__comida__img"><img src="https://osojimix.com/wp-content/uploads/2022/06/Para-la-masa-de-pizza-napolitana-8-hrs-fermentacion-Web-1.jpg" alt="Pizza Napolitana"></figure>
+            <span class="card__comida__nombre">Pizza Napolitana: <br>$12000</br></span>
+            <button class="card__comida__boton" id="botonComida">Añadir</button>
+        </div>
+        <div class="card__comida" id="margarita">
+            <figure class="card__comida__img"><img src="https://osojimix.com/wp-content/uploads/2022/06/Para-la-masa-de-pizza-napolitana-8-hrs-fermentacion-Web-1.jpg" alt="Pizza Napolitana"></figure>
+            <span class="card__comida__nombre">Pizza Margarita: <br>$10000</br></span>
+            <button class="card__comida__boton" id="botonComida2">Añadir</button>
+        </div>
+        <div class="card__comida" id="jamonMorron">
+            <figure class="card__comida__img"><img src="https://osojimix.com/wp-content/uploads/2022/06/Para-la-masa-de-pizza-napolitana-8-hrs-fermentacion-Web-1.jpg" alt="Pizza Napolitana"></figure>
+            <span class="card__comida__nombre">Pizza jamon y morrones: <br>$9000</br></span>
+            <button class="card__comida__boton" id="botonComida3">Añadir</button>
+        </div>
+    </div>
+    <div class="contenedor">
+        <form action="#" id="form">
+            <div class="mensajePedido">
+                <p id="resumenPedido1"></p>
+                <p id="resumenPedido2"></p>
+                <p id="resumenPedido3"></p>
+                <span id="resumenPedido"></span>
+            </div>
+            <div class="info-user">
+                <label for="nombreCompleto" class="input-box">
+                    <span class="detalles">Nombre Completo</span>
+                    <input type="text" placeholder="Ingrese nombre completo" required id="nombreCompleto">
+                </label>
+                <label class="input-box" for="direccion">
+                    <span class="detalles">Dirección</span>
+                    <input type="text" placeholder="Ingrese dirección" required id="direccion">
+                </label>
+                <label class="input-box" for="email">
+                    <span class="detalles">Correo Electronico</span>
+                    <input type="text" placeholder="Ingrese mail" required id="email">
+                </label>
+                <label class="input-box" for="numeroTelefono">
+                    <span class="detalles">Número de telefono</span>
+                    <input type="number" inputmode="numeric" placeholder="Ingrese su telefono (Ejemplo 1122554329)"minlength="10" required id="numeroTelefono">
+                </label>
+            </div>
+            <div class="boton" id="mandarData">
+                <input type="submit" value="Confirmar Pedido">
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
