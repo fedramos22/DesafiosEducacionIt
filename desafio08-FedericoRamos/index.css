@@ -60,15 +60,15 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-papel-cuaderno-documento-nota-rayado-horizontal_136875-3968.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.mensajePedido span {
-    margin: 20px;
+.mensajePedido li {
+    list-style: none;
     padding: 6px;
-    border-radius: 8px;
     align-items: center;
-    border: 3px solid blanchedalmond;
-    background: linear-gradient(180deg, blanchedalmond, rgb(254, 215, 155));
 }
 
 .contenedor {
